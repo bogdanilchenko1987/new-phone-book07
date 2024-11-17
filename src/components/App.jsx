@@ -2,17 +2,18 @@ import { ContactForm } from "./ContactForm/ContactForm";
 import { ContactList } from "./ContactList/ContactList";
 import { ContactsFilter } from "./ContactsFilter/ContactsFilter";
 import { ContactsSection } from "./Section/Section";
+import { Section } from "./Section/Section.styled";
 
 export const App = () => {
   return (
-    <>
-      <ContactsSection title="Phonebook">
+    <Section>
+      <ContactsSection>
         <ContactForm />
       </ContactsSection>
-      <ContactsSection title="Contacts">
+      <ContactsSection>
         <ContactsFilter />
         <ContactList />
       </ContactsSection>
-    </>
+    </Section>
   );
 };

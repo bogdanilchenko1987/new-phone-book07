@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Form = styled.form`
   display: grid;
@@ -20,4 +20,8 @@ export const Button = styled.button`
   cursor: pointer;
   font-size: 20px;
   font-weight: bold;
+`;
+
+export const Img = styled.img`
+  display: block;
 `;

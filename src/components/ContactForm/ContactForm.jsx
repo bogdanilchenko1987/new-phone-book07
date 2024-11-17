@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import img from "../../img/addContact.png";
 import { ModalForm } from "components/ModalForm/ModalForm";
 import Modal from "components/Modal/Modal";
 
@@ -7,7 +7,8 @@ import {
   useAddContactMutation,
   useGetContactsQuery,
 } from "../../redux/contactsSlice";
-import { ButtonAdd } from "components/ButtonAdd/ButtonAdd";
+import { Img } from "./ContactForm.styled";
+// import { ButtonAdd } from "components/ButtonAdd/ButtonAdd";
 
 export const ContactForm = () => {
   const [modalActive, setModalActive] = useState(false);
@@ -44,7 +45,8 @@ export const ContactForm = () => {
           btnName={"Add contact"}
         />
       </Modal>
-      <ButtonAdd openModal={() => setModalActive(true)} />
+      {/* <ButtonAdd openModal={() => setModalActive(true)} /> */}
+      <Img src={img} alt="add contact" onClick={() => setModalActive(true)} />
     </>
   );
 };

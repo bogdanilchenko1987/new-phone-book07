@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 import { filterContacts } from "../../redux/filterSlice";
 
-import { Label, Input } from "./ContactsFilter.styled";
+import { Label, Input, Text } from "./ContactsFilter.styled";
 
 export const ContactsFilter = () => {
   const filter = useSelector((state) => state.filter);
@@ -14,7 +14,7 @@ export const ContactsFilter = () => {
   return (
     <>
       <Label htmlFor="filter">
-        <b>Find contacts:</b>
+        <Text>Find contacts:</Text>
         <Input
           type="text"
           placeholder="Enter contact name"

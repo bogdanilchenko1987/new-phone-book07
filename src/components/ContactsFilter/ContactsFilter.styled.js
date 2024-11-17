@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Label = styled.label`
   display: flex;
@@ -8,4 +8,8 @@ export const Label = styled.label`
 export const Input = styled.input`
   margin-top: 5px;
   border-radius: 3px;
+`;
+
+export const Text = styled.b`
+  font-size: 20px;
 `;
