@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/new-phone-book07/static/css/main.4d7f67b6.css",
+    "main.js": "/new-phone-book07/static/js/main.99b53803.js",
+    "index.html": "/new-phone-book07/index.html",
+    "main.4d7f67b6.css.map": "/new-phone-book07/static/css/main.4d7f67b6.css.map",
+    "main.99b53803.js.map": "/new-phone-book07/static/js/main.99b53803.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d7f67b6.css",
+    "static/js/main.99b53803.js"
+  ]
+}
