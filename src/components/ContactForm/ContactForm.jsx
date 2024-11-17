@@ -46,7 +46,12 @@ export const ContactForm = () => {
         />
       </Modal>
       {/* <ButtonAdd openModal={() => setModalActive(true)} /> */}
-      <Img src={img} alt="add contact" onClick={() => setModalActive(true)} />
+      <Img
+        title="Press to add contact"
+        src={img}
+        alt="add contact"
+        onClick={() => setModalActive(true)}
+      />
     </>
   );
 };
